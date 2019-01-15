@@ -1,1 +1,1 @@
-(is|are) (?P<Person>.*)
+(person) (?P<Person>.*)

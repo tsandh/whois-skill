@@ -9,7 +9,7 @@ Presents a person.
 Looks up information about a person.
 
 ## Examples 
-* "Who is Bill Gates?"
+* "Find person Bill Gates?"
 
 ## Credits 
 Thomas Sandholm
