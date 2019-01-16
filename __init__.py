@@ -36,7 +36,7 @@ class WhoIsSkill(MycroftSkill):
     #   'Hello world'
     #   'Howdy you great big world'
     #   'Greetings planet earth'
-    @intent_handler(IntentBuilder("").require("WhoIsKeyWord").optionally("Person"))
+    @intent_handler(IntentBuilder("").require("WhoIsKeyWord").require("Person"))
     def handle_who_is_intent(self, message):
         # In this case, respond by simply speaking a canned response.
         # Mycroft will randomly speak one of the lines from the file
