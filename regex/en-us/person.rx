@@ -1,1 +1,1 @@
-(person) (?P<Person>.*)
+(person|employee) (?P<Person>.*)
